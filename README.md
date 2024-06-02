@@ -84,6 +84,11 @@ npm run dev
 
 ```
 
+## Screenshot
+![screencapture-blockchain-warriors-vercel-app-2024-06-02-14_19_24](https://github.com/SatyajeetKumarRao/BlockchainWarriors/assets/67307315/eeaf0c70-77fa-4c31-aa2d-0aa9871d218f)
+
+![Screenshot 2024-06-02 142206](https://github.com/SatyajeetKumarRao/BlockchainWarriors/assets/67307315/d9ec4a06-8653-40b5-8ab1-54a04fb2e8c3)
+
 ## Technology Stack
 
 List and provide a brief overview of the technologies used in the project.
