@@ -13,14 +13,15 @@ const FAQ = () => {
     <>
       {/* LargeScreen View */}
       <Box
-        height="889px"
+        // height="889px"
         w="100%"
         bg="#0a0a0a"
         display={{ base: "none", md: "block" }}
+        py={10}
       >
         <Flex
           boxSizing="border-box"
-          pt={"64px"}
+          // pt={"64px"}
           pl={"87px"}
           pr={"100px"}
           justify={"space-between"}
