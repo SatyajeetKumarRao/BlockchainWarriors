@@ -15,8 +15,45 @@ Frontend: https://blockchain-warriors.vercel.app/
 ## Directory Structure
 
 ```
-
-
+├── .eslintrc.cjs
+├── .gitignore
+├── README.md
+├── index.html
+├── package-lock.json
+├── package.json
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── App.css
+│   ├── App.jsx
+│   ├── assets/
+│   │   ├── Roadmap.png
+│   │   ├── RoadmapCard1.png
+│   │   ├── RoadmapCard2.png
+│   │   ├── RoadmapCard3.png
+│   │   ├── RoadmapCard4.png
+│   │   ├── eventBg.png
+│   │   ├── faq.png
+│   │   ├── hero.png
+│   │   ├── introImg.png
+│   │   ├── logo.png
+│   │   ├── react.svg
+│   │   ├── tokenomicsBg.png
+│   │   └── tokenomicsImg.png
+│   ├── components/
+│   │   ├── Event.jsx
+│   │   ├── FAQ.jsx
+│   │   ├── Footer.jsx
+│   │   ├── HeroBanner.jsx
+│   │   ├── Introduction.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── RoadMap.jsx
+│   │   └── Tokenomics.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   └── wallet/
+│   │   └── Wallet.jsx
+└── vite.config.js
 
 ```
 
