@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to Saviour, an immersive gaming platform designed to deliver an unmatched gaming experience. Our platform not only offers captivating gameplay but also incorporates a secure and convenient wallet feature, enhancing your overall experience. Whether you're a casual gamer or a competitive enthusiast, Saviour has something for everyone.
+Welcome to Saviour, where Blockchain Heroes thrive, rescuing dreams and elevating fortunes. We've all faced challenges, but now we stand together to overcome them. We pay tribute to the pioneers of WEB3 and the warriors who have devoted their passion to the blockchain. Join us in saving the fortunate and securing a brighter future! Our mission is to empower everyone to share wealth and succeed.
 
 ## Project Type
 
