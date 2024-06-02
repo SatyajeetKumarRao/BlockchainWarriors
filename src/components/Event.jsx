@@ -12,6 +12,7 @@ import eventBg from "../assets/eventBg.png";
 
 import { IoIosCopy } from "react-icons/io";
 import { useEffect, useState } from "react";
+import { createWeb3Modal } from "@web3modal/wagmi/react";
 
 const Event = () => {
   const data = [
@@ -58,6 +59,11 @@ const Event = () => {
     return `${hours < 10 ? "0" + hours : hours}${
       minutes < 10 ? "0" + minutes : minutes
     }`;
+  };
+
+  const handleClick = () => {
+    const web3Modal = createWeb3Modal();
+    web3Modal.open();
   };
 
   return (
@@ -238,6 +244,7 @@ const Event = () => {
                 _hover={{
                   bg: "linear-gradient(93.73deg, #EE6910 10.19%, #D51B46 98.19%)",
                 }}
+                onClick={handleClick}
               >
                 Connect Wallet
               </Button>
