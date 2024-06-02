@@ -16,7 +16,12 @@ const HeroBanner = () => {
     >
       <Navbar />
 
-      <Box p={{ base: "100px 10px", md: "150px 0px" }}>
+      <Box
+        p={{ base: "100px 10px", md: "150px 0px" }}
+        maxW={"1512px"}
+        width={"100%"}
+        mx={"auto"}
+      >
         <Text
           bg={{ base: "rgba(0, 0, 0, 0.5)", md: "none" }}
           borderRadius={"20px"}

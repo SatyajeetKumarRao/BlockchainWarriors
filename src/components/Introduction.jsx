@@ -46,8 +46,7 @@ const Introduction = () => {
             their love to the blockchain. Save the lucky ones alive, join us to
             save the future!
             <br />
-            Our mission is to empower everyone to share wealth and succeed. read
-            more...
+            Our mission is to empower everyone to share wealth and succeed.
             <br />
             <span style={{ color: "#9b9999" }}>read more...</span>
           </Text>

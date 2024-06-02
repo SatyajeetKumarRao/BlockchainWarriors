@@ -52,6 +52,12 @@ const Navbar = () => {
             variant={"ghost"}
             aria-label={"Toggle Navigation"}
             color={"white"}
+            _hover={{
+              bgColor: "#00000000",
+            }}
+            _active={{
+              bgColor: "#00000000",
+            }}
           />
 
           <Flex align={"center"}>
@@ -320,18 +326,7 @@ const NAV_ITEMS = [
   },
   {
     label: `Coming Soon `,
-    children: [
-      {
-        label: "Explore Design Work",
-        subLabel: "Trending Design to inspire you",
-        href: "#",
-      },
-      {
-        label: "New & Noteworthy",
-        subLabel: "Up-and-coming Designers",
-        href: "#",
-      },
-    ],
+    href: "#",
   },
   {
     label: (

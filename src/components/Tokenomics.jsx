@@ -25,7 +25,7 @@ const Tokenomics = () => {
   ];
 
   return (
-    <Box w="100%" height={"706px"} position={"relative"}>
+    <Box w="100%" height={{ base: "798px", md: "706px" }} position={"relative"}>
       <Box
         position="absolute"
         top="0"
@@ -34,7 +34,7 @@ const Tokenomics = () => {
         bgImage={tokenomicsBg}
         zIndex="0"
         m={"0 auto"}
-        height={"706px"}
+        height={{ base: "798px", md: "706px" }}
         backgroundPosition={{ base: "50% 35%", md: "0 35%" }}
         backgroundSize={"cover"}
         boxSizing="border-box"
@@ -44,7 +44,7 @@ const Tokenomics = () => {
           top="0"
           left="0"
           w="100%"
-          height={"706px"}
+          height={{ base: "798px", md: "706px" }}
           bg="rgba(0, 0, 0, 0.75)" // This creates a dark overlay
           zIndex="1"
         />
@@ -61,11 +61,11 @@ const Tokenomics = () => {
           </Text>
 
           <Flex
-            m={{ base: 5, md: 10 }}
+            m={10}
             pt={{ base: 5, md: 10 }}
             justify={"center"}
             align={"center"}
-            gap={10}
+            gap={{ base: 20, md: 10 }}
             direction={{ base: "column", md: "row" }}
           >
             <Flex
@@ -129,7 +129,7 @@ const Tokenomics = () => {
               </Box>
             </Flex>
             <Box
-              width={{ base: "100%", md: "60%" }}
+              width={{ base: "105%", md: "60%" }}
               boxSizing="border-box"
               overflow={"hidden"}
             >
