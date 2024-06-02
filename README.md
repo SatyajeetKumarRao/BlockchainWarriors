@@ -10,56 +10,13 @@ Frontend
 
 ## Deplolyed App
 
-Frontend: https://web3saviors.onrender.com
+Frontend: https://blockchain-warriors.vercel.app/
 
 ## Directory Structure
 
 ```
-├─ .eslintrc.cjs
-├─ .gitignore
-├─ README.md
-├─ index.html
-├─ package-lock.json
-├─ package.json
-├─ postcss.config.js
-├─ public
-│  └─ vite.svg
-├─ src
-│  ├─ App.css
-│  ├─ App.jsx
-│  ├─ Page
-│  │  └─ HomePage.jsx
-│  ├─ Wallet
-│  │  └─ Wallet.jsx
-│  ├─ assets
-│  │  ├─ Event.png
-│  │  ├─ Faq.png
-│  │  ├─ FooterLogo.png
-│  │  ├─ Hero.png
-│  │  ├─ Intro.png
-│  │  ├─ NavLogo.png
-│  │  ├─ Roadmap.png
-│  │  ├─ RoadmapCard1.png
-│  │  ├─ RoadmapCard2.png
-│  │  ├─ RoadmapCard3.png
-│  │  ├─ RoadmapCard4.png
-│  │  ├─ Token.png
-│  │  └─ TokenBg.png
-│  ├─ components
-│  │  ├─ BaseIntroduction.jsx
-│  │  ├─ Event.jsx
-│  │  ├─ Faq.jsx
-│  │  ├─ Footer.jsx
-│  │  ├─ Hero.jsx
-│  │  ├─ Introduction.jsx
-│  │  ├─ LargeIntroduction.jsx
-│  │  ├─ Navbar.jsx
-│  │  ├─ Roadmap.jsx
-│  │  └─ Tokenomics.jsx
-│  ├─ index.css
-│  └─ main.jsx
-├─ tailwind.config.js
-└─ vite.config.js
+
+
 
 ```
 
@@ -74,7 +31,7 @@ Frontend: https://web3saviors.onrender.com
 Detailed instructions on how to install, configure, and get the project running.
 
 ```bash
-git clone https://github.com/ShubhKeshari/web3saviors.git
+git clone https://github.com/SatyajeetKumarRao/BlockchainWarriors.git
 
 npm install
 
